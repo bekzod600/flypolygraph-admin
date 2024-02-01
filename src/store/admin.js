@@ -7,7 +7,7 @@ export const admin = defineStore("admin", {
     async loginUser(data) {
       const toast = useToast();
       const { email, password } = data;
-      if (email === "test@gmail.com" && password === "1234") {
+      if (email === "eldor" && password === "sharipov8267") {
         return (this.isRegisteration = true);
       } else {
         toast.error("Email yoki Password xato");
